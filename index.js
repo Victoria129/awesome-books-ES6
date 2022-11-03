@@ -1,4 +1,5 @@
 import Utility from "./modules/methods.js";
+import { DateTime } from "./modules/luxon.js";
 
 const bookList = document.querySelector('#displayed-books');
 const bookAdd = document.querySelector('.add-awesombooks');
@@ -43,10 +44,10 @@ window.addEventListener('load', () => {
 
 /* eslint-disable no-undef */
 setInterval(() => {
-  const dt = luxon.DateTime.now();
+  const dt = DateTime.now();
   const time = document.querySelector('.time-div');
   time.textContent = dt.toLocaleString(luxon.DateTime.DATETIME_MED_WITH_SECONDS);
-}, 1);
+}, 1000);
 
 window.onload = () => {
   Utility.displayBooks();
