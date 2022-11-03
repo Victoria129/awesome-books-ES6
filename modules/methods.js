@@ -2,7 +2,7 @@ import Book from "./book.js";
 
 export default class Utility {
   
-    static getBooks() {
+    static getBooks = () => {
       let books;
       if (localStorage.getItem('books') === null) {
         books = [];
@@ -12,13 +12,13 @@ export default class Utility {
       return books;
     }
   
-    static addBook(book) {
+    static addBook = (book) => {
       const books = this.getBooks();
       books.push(book);
       localStorage.setItem('books', JSON.stringify(books));
     }
   
-    static removeBook(title, author) {
+    static removeBook = (title, author) => {
       const books = this.getBooks();
       books.forEach((book, index) => {
         if (book.title === title && book.author === author) {
@@ -28,12 +28,12 @@ export default class Utility {
       localStorage.setItem('books', JSON.stringify(books));
     }
   
-    static displayBooks() {
+    static displayBooks = () => {
       const books = this.getBooks();
       books.forEach((book) => this.addBookToList(book));
     }
   
-    static addBookToList(book) {
+    static addBookToList = (book) => {
       const list = document.querySelector('#book-list');
   
       const datavalue = document.createElement('li');
@@ -47,13 +47,13 @@ export default class Utility {
       list.appendChild(datavalue);
     }
   
-    static deleteBook (el) {
+    static deleteBook = (el) => {
       if (el.classList.contains('delete')) {
         el.parentElement.remove();
       }
     }
   
-    static clearFields() {
+    static clearFields = () => {
       document.querySelector('#title').value = '';
       document.querySelector('#author').value = '';
     }
