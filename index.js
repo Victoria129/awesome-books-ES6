@@ -1,5 +1,5 @@
-import Utility from "./modules/methods.js";
-import { DateTime } from "./modules/luxon.js";
+import Utility from './modules/methods.js';
+import { DateTime } from './modules/luxon.js';
 
 const bookList = document.querySelector('#displayed-books');
 const bookAdd = document.querySelector('.add-awesombooks');
@@ -51,7 +51,7 @@ setInterval(() => {
 
 window.onload = () => {
   Utility.displayBooks();
-}
+};
 
 document.querySelector('#book-form').addEventListener('submit', (e) => {
   e.preventDefault();

@@ -1,217 +1,217 @@
 body {
-    background-image: url(image/bookshelf4.jpg);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
-    background-color: #fff;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  main {
-    height: 100vh;
-  }
-  
-  .headingmain {
-    text-align: center;
-    font-size: 35px;
-    font-weight: bolder;
-    color: brown;
-    margin-left: 2%;
-  }
-  
-  .awesomebooks {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    align-self: center;
-  }
-  
-  #book-list {
-    border: solid;
-    min-width: 65vw;
-    padding-left: 0;
-    background-color: #fff;
-    scroll-behavior: smooth;
-    overflow-y: scroll;
-    max-height: 50vh;
-  }
-  
-  #book-list::-webkit-scrollbar {
-    display: none;
-  }
-  
-  .contact-me ul {
-    list-style-type: square;
-  }
-  
-  .header ul {
-    list-style-type: none;
-  }
-  
-  #book-list ul {
-    list-style-type: none;
-  }
-  
-  li {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-  }
-  
-  footer p {
-    margin: 2%;
-  }
-  
-  .book-item p {
-    align-self: flex-start;
-  }
-  
-  input {
-    height: 40px;
-  }
-  
-  .line {
-    height: 3px;
-    width: 20%;
-    background-color: #fff;
-  }
-  
-  .form1 {
-    width: 50vw;
-  }
-  
-  .add-book {
-    text-align: center;
-    font-size: 25px;
-    font-weight: bolder;
-    color: brown;
-  }
-  
-  .form-input-value {
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    padding: 10px 25px;
-  }
-  
-  .add {
-    margin-left: 84%;
-    width: 5rem;
-    height: 2.5rem;
-    background-color: #fff;
-  }
-  
-  @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
-  
-  * {
-    font-family: 'Comfortaa', sans-serif;
-  }
-  
-  header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    color: rgb(31, 3, 3);
-    font-size: 1.2rem;
-    width: 100vw;
-    border: solid beige;
-  }
-  
-  .nav-list {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    width: 35vw;
-  }
-  
-  .listt {
-    margin-right: -2rem;
-  }
-  
-  .nav-list li a {
-    /* color: white; */
-    font-weight: 700;
-    white-space: nowrap;
-  }
-  
-  .nav-list li a:hover {
-    color: aquamarine;
-  }
-  
-  .nav-list li a.active {
-    color: blue;
-  }
-  
-  .time-div {
-    display: flex;
-    color: brown;
-    justify-content: right;
-    width: 90vw;
-    font-weight: 800;
-    margin-top: 1rem;
-  }
-  
-  .heading {
-    text-align: center;
-    font-size: 35px;
-    font-weight: bolder;
-    color: brown;
-    margin-left: 2%;
-  }
-  
-  #book-list:nth-child(odd) {
-    background: #fff;
-  }
-  
-  #book-list:nth-child(even) {
-    background: #fff;
-  }
-  
-  hr {
-    width: 20%;
-  }
-  
-  .delete {
-    align-self: flex-end;
-    align-content: center;
-    width: 5rem;
-    height: 3rem;
-    background-color: blanchedalmond;
-  }
-  
-  .contact-me {
-    display: none;
-    flex-direction: column;
-    align-self: center;
-    height: 70vh;
-    width: 100vw;
-    align-items: center;
-    text-align: center;
-    font-size: 2rem;
-    font-weight: 700;
-  }
-  
-  .books-adding {
-    display: none;
-    flex-direction: column;
-    align-self: center;
-    z-index: 22;
-  }
-  
-  footer {
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: space-between;
-    color: brown;
-    font-size: 1.2rem;
-    width: 100vw;
-    border: solid black;
-    font-weight: 700;
-  }
+  background-image: url(image/bookshelf4.jpg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  background-color: #fff;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  height: 100vh;
+}
+
+.headingmain {
+  text-align: center;
+  font-size: 35px;
+  font-weight: bolder;
+  color: brown;
+  margin-left: 2%;
+}
+
+.awesomebooks {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-self: center;
+}
+
+#book-list {
+  border: solid;
+  min-width: 65vw;
+  padding-left: 0;
+  background-color: #fff;
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+  max-height: 50vh;
+}
+
+#book-list::-webkit-scrollbar {
+  display: none;
+}
+
+.contact-me ul {
+  list-style-type: square;
+}
+
+.header ul {
+  list-style-type: none;
+}
+
+#book-list ul {
+  list-style-type: none;
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+footer p {
+  margin: 2%;
+}
+
+.book-item p {
+  align-self: flex-start;
+}
+
+input {
+  height: 40px;
+}
+
+.line {
+  height: 3px;
+  width: 20%;
+  background-color: #fff;
+}
+
+.form1 {
+  width: 50vw;
+}
+
+.add-book {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bolder;
+  color: brown;
+}
+
+.form-input-value {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  padding: 10px 25px;
+}
+
+.add {
+  margin-left: 84%;
+  width: 5rem;
+  height: 2.5rem;
+  background-color: #fff;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+* {
+  font-family: 'Comfortaa', sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: rgb(31, 3, 3);
+  font-size: 1.2rem;
+  width: 100vw;
+  border: solid beige;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 35vw;
+}
+
+.listt {
+  margin-right: -2rem;
+}
+
+.nav-list li a {
+  /* color: white; */
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.nav-list li a:hover {
+  color: aquamarine;
+}
+
+.nav-list li a.active {
+  color: blue;
+}
+
+.time-div {
+  display: flex;
+  color: brown;
+  justify-content: right;
+  width: 90vw;
+  font-weight: 800;
+  margin-top: 1rem;
+}
+
+.heading {
+  text-align: center;
+  font-size: 35px;
+  font-weight: bolder;
+  color: brown;
+  margin-left: 2%;
+}
+
+#book-list:nth-child(odd) {
+  background: #fff;
+}
+
+#book-list:nth-child(even) {
+  background: #fff;
+}
+
+hr {
+  width: 20%;
+}
+
+.delete {
+  align-self: flex-end;
+  align-content: center;
+  width: 5rem;
+  height: 3rem;
+  background-color: blanchedalmond;
+}
+
+.contact-me {
+  display: none;
+  flex-direction: column;
+  align-self: center;
+  height: 70vh;
+  width: 100vw;
+  align-items: center;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.books-adding {
+  display: none;
+  flex-direction: column;
+  align-self: center;
+  z-index: 22;
+}
+
+footer {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: brown;
+  font-size: 1.2rem;
+  width: 100vw;
+  border: solid black;
+  font-weight: 700;
+}
