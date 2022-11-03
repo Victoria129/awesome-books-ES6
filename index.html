@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome books</title>
+    <script src="https://cdn.jsdelivr.net/npm/luxon@2.1.1/build/global/luxon.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1 class="heading">Awesome Books</h1>
+        <nav>
+            <ul class="nav-list">
+                <li ><a class="link listofbook" href="#">List</a></li>
+                <li ><a class="link addbookform" href="#">Add new</a></li>
+                <li ><a class="link contactInfo" href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="time-div"></div>
+ 
+ <main>
+<div class="awesomebooks">
+<section class="displayed-books" id="displayed-books">
+    <h2 class="headingmain">All awesome books</h2>
+        <ul id="book-list"></ul><br>
+</section>
+<section class="add-awesombooks">
+    <!-- <hr class="line"> -->
+    <form class="form1" id="book-form">
+    <div class="form-input-value">
+        <h3 class="add-book">Add a new book</h3>
+        <input type="text" class="title" id="title" placeholder="Title" required >
+    </div><br>
+    <div class="form-input-value">
+        <input type="text" class="author" id="author" placeholder="Author" required >
+    </div><br>
+    <button type="submit" class="add">Add</button>
+    </form>
+</section>
+</div>
+<section class="contact-me" id="contact-me">
+    <h2 class="heading">Contact Information</h2>
+    <p>Do you have any question or you just want to say "Hello"? <br> You can reach out to us! </p>
+    <ul>
+    <li>Our-email: fr.nega@gmail.com & victoria.tumwebaze@outlook.com</li>
+    <li>Our phone number: +251 962048273 & +256 782828938 </li>
+    <li>Our Address: addis Ababa, 84503, Kampala</li></ul>
+    </section>
+</main>
+<footer>
+    <p class="copyright">
+        &copy;Copyright
+    </p>
+    <p class="rights">Fre and Vic Some Rights Reserved 2022</p>
+</footer>
+<script type="module" src="./index.js"></script>
+</body>
+</html>
